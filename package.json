@@ -1,0 +1,10 @@
+{
+  "name": "multiple3and5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "KevenMarioN <kevenmario.n.r@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  }
+}
