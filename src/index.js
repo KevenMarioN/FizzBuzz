@@ -5,6 +5,8 @@ module.exports = {
   processInteger : function (integer) {
     if(integer == 3)
       return FIZZ;
+    if(integer == 5)
+      return BUZZ;
     return integer;
   }
 }
