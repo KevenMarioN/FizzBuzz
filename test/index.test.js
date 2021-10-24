@@ -10,6 +10,17 @@ describe('app',() => {
     expect(fizzBuzz.processInteger(6)).toBe('Fizz');
     expect(fizzBuzz.processInteger(9)).toBe('Fizz');
     expect(fizzBuzz.processInteger(10)).toBe('Buzz');
+    expect(fizzBuzz.processInteger(12)).toBe('Fizz');
     expect(fizzBuzz.processInteger(15)).toBe('FizzBuzz');
+    expect(fizzBuzz.processInteger(18)).toBe('Fizz');
+    expect(fizzBuzz.processInteger(20)).toBe('Buzz');
+    expect(fizzBuzz.processInteger(24)).toBe('Fizz');
+    expect(fizzBuzz.processInteger(25)).toBe('Buzz');
+    expect(fizzBuzz.processInteger(27)).toBe('Fizz');
+    expect(fizzBuzz.processInteger(30)).toBe('FizzBuzz');
+    expect(fizzBuzz.processInteger(33)).toBe('Fizz');
+    expect(fizzBuzz.processInteger(35)).toBe('Buzz');
+    expect(fizzBuzz.processInteger(45)).toBe('FizzBuzz');
+
   });
 });
