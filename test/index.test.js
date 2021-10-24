@@ -7,5 +7,6 @@ describe('app',() => {
     expect(fizzBuzz.processInteger(3)).toBe('Fizz');
     expect(fizzBuzz.processInteger(4)).toBe(4);
     expect(fizzBuzz.processInteger(5)).toBe('Buzz');
+    expect(fizzBuzz.processInteger(6)).toBe('Fizz');
   });
 });
